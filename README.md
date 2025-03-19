@@ -20,7 +20,7 @@ It enables users to explore movies by **genre, rating, votes, and duration** thr
 
 IMDb is a popular online database of movies, TV shows, and celebrity content.  
 This project aims to:  
-- **Scrape** IMDb movie data for the year 2024.  
+- **Scrape** IMDb movie data for the year 2024.   ([link](https://www.imdb.com/search/title/?title_type=feature&release_date=2024-01-01,2024-12-31))
 - **Store** the scraped data in a **TiDB cloud SQL database**.  
 - Create an **interactive Streamlit app** for filtering and visualizing the data.  
 - Perform **data analysis and visualizations** to extract insights.  
@@ -111,7 +111,7 @@ This project aims to:
 - Install required libraries:  
 
 ```bash
-pip install -r 
+pip install -
 
 selenium  
 pandas  
